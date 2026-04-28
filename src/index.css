@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-background text-emerald font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@theme {
+  --color-primary: #003527;
+  --color-secondary: #904d00;
+  --color-tertiary: #2e2f27;
+  --color-background: #f8f9ff;
+  --color-gold: #D97706;
+  --color-emerald: #064E3B;
+  --color-cream: #FDFCF0;
+  --color-sand: #F7F5E9;
+
+  --font-serif: "Noto Serif", serif;
+  --font-sans: "Manrope", sans-serif;
+}
